@@ -1,3 +1,4 @@
+<!DOCTYPE php>
 header("Content-Type: application/octet-stream");
 
 $file = $_GET["file"] .".pdf";
@@ -14,3 +15,4 @@ while (!feof($fp))
     flush(); // this is essential for large downloads
 } 
 fclose($fp);
+</php>
