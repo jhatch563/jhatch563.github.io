@@ -639,7 +639,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #references {
-  background: #1F1F1F url(images/Mountains.jpg) no-repeat center center;
+  background: url(images/Mountains.jpg) no-repeat center center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   background-attachment: fixed;
